@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Section</title>
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<style>
+  .about-section {
+    text-align: center;
+    padding: 50px 0;
+  }
+  .about-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  .about-section img {
+    width: 200px; /* Adjust the size as needed */
+    height: 200px;
+    border-radius: 50%; /* Makes the image round */
+    margin-bottom: 20px;
+  }
+  .about-section p {
+    color: #333;
+  }
+</style>
+</head>
+<body>
+
+<section id="about" class="about-section">
+  <div class="container">
+    <h2>About</h2>
+    <img src="images/about/1.jpg" alt="About Me">
+    <p>
+      Hey there, I'm Shivdatta Redekar, and I've spent the last 5.3 years diving deep into the world of data science.
+       From fine-tuning machine learning models to exploring the complexities of deep learning and NLP, 
+       I've been on an exhilarating journey of discovery
+    </p>
+    <p>
+      I'm currently working as a Data Scientist at <a href="https://www.interpublic.com/" target="_blank">Interpublic</a>, 
+       where I'm responsible for building and deploying machine learning models to improve the efficiency of our business processes. 
+       In my free time, I love exploring new technologies and learning about the latest trends in data science.
+    </p>
+    <p>
+      I invite you to explore my projects and skills to get a glimpse into my data-driven world. 
+      Your insights and thoughts are invaluable to me, so take your time and enjoy the journey alongside me.
+    </p>
+  </div>
+</section>
+
+<!-- Bootstrap JS and dependencies (jQuery and Popper) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.9.5/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<!-- Projects Section -->
+<section class="projects-section bg-light" id="projects">
+  <div class="container">
+    <div class="row">
+      <!-- Deep Learning Projects Button -->
+      <div class="col-md-4 mb-4">
+        <button id="dl-projects-button" class="btn btn-primary btn-block">Show Deep Learning Projects</button>
+      </div>
+      
+      <!-- GenAI Projects Button -->
+      <div class="col-md-4 mb-4">
+        <button id="genai-project-button" class="btn btn-primary btn-block">Show GenAI Project</button>
+      </div>
+
+      <!-- Machine Learning Projects Button -->
+      <div class="col-md-4 mb-4">
+        <button id="ml-projects-button" class="btn btn-primary btn-block">Show Machine Learning Projects</button>
+      </div>
+      
+    </div>
+    
+    <!-- Deep Learning Projects (Initially hidden) -->
+    <div id="deep-learning-projects" style="display:none;" class="row">
+      <!-- Project 4 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/projects/4.png" class="card-img-top" alt="Project 4">
+          <div class="card-body">
+            <h5 class="card-title">Audio Classification</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed nisl erat. Sed et purus ornare, eleifend tellus ut, fermentum arcu.</p>
+            <a href="https://github.com/shivdattaredekar/AudioClassifiaction/tree/main" class="btn btn-secondary" target="_blank">Source Code</a>
+          </div>
+        </div>
+      </div>
+      <!-- Project 5 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/projects/5.jpg" class="card-img-top" alt="Project 5">
+          <div class="card-body">
+            <h5 class="card-title">Language Translation</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed nisl erat. Sed et purus ornare, eleifend tellus ut, fermentum arcu.</p>
+            <a href="https://github.com/shivdattaredekar/LanguageTranslationBERT-" class="btn btn-secondary" target="_blank">Source Code</a>
+          </div>
+        </div>
+      </div>
+      <!-- Project 1 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/projects/1.png" class="card-img-top" alt="Project 1">
+          <div class="card-body">
+            <h5 class="card-title">Text Summarizer Project</h5>
+            <p class="card-text">End-to-End text summarization model using a Transformer-based Language Model (LLM), implementing Continuous Integration/Continuous Deployment (CI/CD) pipelines, and deploying it on AWS </p>
+            <a href="https://github.com/shivdattaredekar/End-to-End-TextSummarizer-AWS" class="btn btn-secondary" target="_blank">Source Code</a>
+          </div>
+        </div>
+      </div>
+      <!-- Project 2 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/projects/2.png" class="card-img-top" alt="Project 2">
+          <div class="card-body">
+            <h5 class="card-title">Image Classifier</h5>
+            <p class="card-text">End-to-End Image Classification model using a transfer learning using VGGNet and many other techniques </p>
+            <a href="https://github.com/shivdattaredekar/CNN_ImageClassifierAPP" class="btn btn-secondary" target="_blank">Source Code</a>
+          </div>
+        </div>
+      </div>
+      <!-- Project 3 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/projects/3.png" class="card-img-top" alt="Project 3">
+          <div class="card-body">
+            <h5 class="card-title">Object Detection</h5>
+            <p class="card-text">Object Detection on a custom dataset using YOLO V5.</p>
+            <a href="https://github.com/shivdattaredekar/Object-DetectionYOLOV5" class="btn btn-secondary" target="_blank">Source Code</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <!-- GenAI Project (Initially hidden) -->
+    <div id="genai-project" style="display:none;" class="row">
+      <!-- Project 1 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/projects/6.jpg" class="card-img-top" alt="Chat with PDFs">
+          <div class="card-body">
+            <h5 class="card-title">Chat with PDFs</h5>
+            <p class="card-text">Chat with multiple PDF's after uploading them in the app</p>
+            <a href="https://github.com/shivdattaredekar/ChatWithPDFsWithLLM/tree/main?tab=readme-ov-file" class="btn btn-secondary" target="_blank">Source Code</a>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Project 2 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/projects/7.jpg" class="card-img-top" alt="Blog Generation">
+          <div class="card-body">
+            <h5 class="card-title">Blog Generation</h5>
+            <p class="card-text">Blog generation using Llama models</p>
+            <a href="https://github.com/shivdattaredekar/BlogGenerationLlamaModels" class="btn btn-secondary" target="_blank">Source Code</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/projects/7.jpg" class="card-img-top" alt="Invoice Extractor">
+          <div class="card-body">
+            <h5 class="card-title">Blog Generation</h5>
+            <p class="card-text">Blog generation using Llama models</p>
+            <a href="https://github.com/shivdattaredekar/GeminiLLMApps/tree/main/InvoiceExtractor" class="btn btn-secondary" target="_blank">Source Code</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/projects/10.jpg" class="card-img-top" alt="Health App">
+          <div class="card-body">
+            <h5 class="card-title">Blog Generation</h5>
+            <p class="card-text">Blog generation using Llama models</p>
+            <a href="https://github.com/shivdattaredekar/GeminiLLMApps/tree/main/HealthApp" class="btn btn-secondary" target="_blank">Source Code</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/projects/9.jpg" class="card-img-top" alt="QnA Chatbot">
+          <div class="card-body">
+            <h5 class="card-title">Blog Generation</h5>
+            <p class="card-text">Blog generation using Llama models</p>
+            <a href="https://github.com/shivdattaredekar/GeminiLLMApps/tree/main/EndToEndLLM" class="btn btn-secondary" target="_blank">Source Code</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/projects/8.png" class="card-img-top" alt="YouTube Transcriber">
+          <div class="card-body">
+            <h5 class="card-title">Blog Generation</h5>
+            <p class="card-text">Blog generation using Llama models</p>
+            <a href="https://github.com/shivdattaredekar/GeminiLLMApps/tree/main/YTTranscriber" class="btn btn-secondary" target="_blank">Source Code</a>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+    <!-- Machine Learning Projects (Initially hidden) -->
+    <div id="machine-learning-projects" style="display:none;" class="row">
+      <!-- Project 1 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/projects/1.png" class="card-img-top" alt="Project 1">
+          <div class="card-body">
+            <h5 class="card-title">Text Summarizer Project</h5>
+            <p class="card-text">End-to-End text summarization model using a Transformer-based Language Model (LLM), implementing Continuous Integration/Continuous Deployment (CI/CD) pipelines, and deploying it on AWS </p>
+            <a href="https://github.com/shivdattaredekar/End-to-End-TextSummarizer-AWS" class="btn btn-secondary" target="_blank">Source Code</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Additional CSS for Projects Section -->
+<style>
+.projects-section h2 {
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+}
+.card {
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Adds a subtle shadow around the card */
+}
+.card-img-top {
+  max-height: 180px; /* Adjust this value to fit the image properly in the card */
+  object-fit: cover; /* This makes sure the image covers the area properly */
+}
+.card-body {
+  padding: 15px;
+}
+.card-title {
+  font-size: 1.25rem;
+}
+.card-text {
+  margin-bottom: 15px;
+}
+
+/* Ensure buttons are in one line */
+.projects-section .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* Add flex properties to ensure cards align properly */
+#deep-learning-projects, #machine-learning-projects, #genai-project {
+  display: flex;
+  flex-wrap: wrap;
+}
+</style>
+
+<!-- JavaScript to toggle project visibility -->
+<script>
+  document.getElementById('dl-projects-button').addEventListener('click', function() {
+    document.getElementById('deep-learning-projects').style.display = 'flex';
+    document.getElementById('machine-learning-projects').style.display = 'none';
+    document.getElementById('genai-project').style.display = 'none';
+  });
+
+  document.getElementById('ml-projects-button').addEventListener('click', function() {
+    document.getElementById('deep-learning-projects').style.display = 'none';
+    document.getElementById('machine-learning-projects').style.display = 'flex';
+    document.getElementById('genai-project').style.display = 'none';
+  });
+
+  document.getElementById('genai-project-button').addEventListener('click', function() {
+    document.getElementById('deep-learning-projects').style.display = 'none';
+    document.getElementById('machine-learning-projects').style.display = 'none';
+    document.getElementById('genai-project').style.display = 'flex';
+  });
+</script>
+
+<!-- Skills Section -->
+<section class="skills-section bg-white" id="skills">
+  <div class="container">
+    <h2 class="text-center">Skills</h2>
+    <div class="row">
+      <!-- Skill 1 -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/skills/1.png" class="card-img-top" alt="Python">
+          <div class="card-body">
+            <h5 class="card-title">Python</h5>
+            <a href="#" class="btn btn-outline-primary">Link to raw analysis</a>
+          </div>
+        </div>
+      </div>
+      <!-- Skill 2 -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/skills/2.png" class="card-img-top" alt="Data Visualization">
+          <div class="card-body">
+            <h5 class="card-title">Data Visualization</h5>
+            <a href="#" class="btn btn-outline-primary">Link to raw analysis</a>
+          </div>
+        </div>
+      </div>
+      <!-- Skill 3 -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/skills/3.png" class="card-img-top" alt="SQL">
+          <div class="card-body">
+            <h5 class="card-title">SQL</h5>
+            <a href="#" class="btn btn-outline-primary">Link to raw analysis</a>
+          </div>
+        </div>
+      </div>
+      <!-- Skill 4 -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/skills/4.png" class="card-img-top" alt="Data Storytelling">
+          <div class="card-body">
+            <h5 class="card-title">Data Storytelling</h5>
+            <a href="#" class="btn btn-outline-primary">Link to raw analysis</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style> 
+  /* Additional CSS for Skills Section */
+.skills-section h2 {
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+}
+.skills-section .card {
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.skills-section .card-img-top {
+  padding: 20px; /* Add padding around your images if needed */
+  background-color: #f8f9fa; /* Adjust the background color if your images have transparent areas */
+}
+.skills-section .card-title {
+  font-size: 1.25rem;
+}
+.skills-section .card-text {
+  margin-bottom: 15px;
+}
+</style>
+
+
+
+</body>
+</html>
+
+<!-- Contact Me Section -->
+<section id="contact" class="contact-section text-center text-white bg-dark">
+  <div class="container">
+    <h2>Contact Me</h2>
+    <div class="row mb-4">
+      <div class="col-lg-6">
+        <p><i class="fas fa-envelope"></i> shivdattaredekar@gmail.com</p>
+      </div>
+      <div class="col-lg-6">
+        <p><i class="fas fa-phone"></i> 9819704443</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 col-md-6 mb-4">
+        <a href="https://www.linkedin.com/in/shivdatta-redekar-93ab1511a" target="_blank">
+          <img src="icons/linkedin.png" alt="LinkedIn" class="social-icon">
+          <span>LinkedIn</span>
+        </a>
+      </div>
+      <div class="col-lg-6 col-md-6 mb-4">
+        <a href="https://github.com/shivdattaredekar" target="_blank">
+          <img src="icons/github.png" alt="GitHub" class="social-icon">
+          <span>GitHub</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  /* Additional CSS for Contact Section */
+.contact-section {
+  padding: 50px 0;
+  background-color: #333; /* Darker background for better contrast */
+}
+
+.contact-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-bottom: 2px solid #fff;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.contact-section p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-section p i {
+  margin-right: 10px;
+}
+
+.social-icon {
+  width: 50px; /* Size of your icons */
+  margin-bottom: 10px;
+  transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
+}
+
+.contact-section a {
+  color: #fff;
+  text-decoration: none; /* Removes underline from links */
+  display: inline-block; /* Allows for margin on the bottom */
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.contact-section a:hover {
+  color: #ddd; /* Color when hovering over the link */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .contact-section p {
+    font-size: 1rem;
+  }
+
+  .social-icon {
+    width: 40px;
+  }
+
+  .contact-section a {
+    font-size: 1rem;
+  }
+}
+</style>
+
+
+<!-- Sticky Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#home">Portfolio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<style> 
+  /* CSS for Sticky Navbar */
+.navbar {
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Adds a shadow for depth */
+}
+
+/* Ensure padding is added to body to avoid content being hidden behind the navbar */
+body { 
+  padding-top: 56px; /* Adjust this value based on the height of your navbar */
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Style for navigation bar links */
+.navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #f8f9fa; /* Slightly lighter white when hovering over links */
+}
+
+/* Media query for responsive navbar collapsing */
+@media (max-width: 992px) {
+  .navbar-collapse {
+    background-color: #343a40; /* Same as navbar color for seamless look */
+  }
+}
+</style>
+
